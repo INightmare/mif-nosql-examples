@@ -53,7 +53,7 @@ app.delete('/vehicle/location/:license', async function(req, res) {
 });
 
 function locationKey(licenseNo) {
-  return `Vehicle:{licenseNo}`;
+  return `Vehicle:${licenseNo}`;
 }
 
 
