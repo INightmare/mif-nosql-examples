@@ -4,6 +4,14 @@
 
 Tam, kad projektas veiktų reikia vertualios Python aplinkos, kurioje bus sudiegiamos reikalingos bibliotekos (Flask web karkasas ir Redis klientas).
 
+
+Windows:
+```
+python3 -m venv .\.venv
+.\.venv\bin\activate.bat
+```
+
+Linux / MacOS:
 ```
 python3 -m venv ./.venv
 source ./.venv/bin/activate
